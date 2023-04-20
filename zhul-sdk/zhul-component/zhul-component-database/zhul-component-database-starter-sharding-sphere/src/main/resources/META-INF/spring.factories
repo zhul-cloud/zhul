@@ -1,0 +1,6 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.zhul.cloud.database.sharding.ShardingEnvProcessor
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zhul.cloud.database.sharding.MasterSelectAspectAutoConfiguration,\
+  com.zhul.cloud.database.sharding.ShardingAutoConfiguration

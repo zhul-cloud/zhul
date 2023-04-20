@@ -1,0 +1,4 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.zhul.cloud.discovery.nacos.NacosDiscoveryEnvProcessor
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zhul.cloud.discovery.nacos.NacosDelayServiceRegistration

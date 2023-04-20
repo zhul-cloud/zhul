@@ -1,0 +1,4 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zhul.cloud.log.spring.boot.LoggerAutoConfiguration,\
+com.zhul.cloud.log.spring.boot.BizLoggerAspectAutoConfiguration

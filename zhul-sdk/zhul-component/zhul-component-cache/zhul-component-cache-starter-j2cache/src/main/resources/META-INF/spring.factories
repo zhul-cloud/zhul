@@ -1,0 +1,4 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.zhul.cloud.cache.j2cache.J2CacheEnvProcessor
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zhul.cloud.cache.j2cache.SpringCacheConfiguration

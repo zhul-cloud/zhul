@@ -1,0 +1,5 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.zhul.cloud.stream.spring.boot.StreamEnvProcessor
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zhul.cloud.stream.spring.boot.StreamListenerAspectAutoConfiguration
