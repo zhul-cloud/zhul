@@ -48,6 +48,12 @@ Maven对称结构和规范，最严格的命名格式，给予使用者最舒适
 
 如果需要使用已发布的版本，在 `dependencyManagement` 中添加如下配置。
 
+```
+  <properties>
+    <zhul.version>1.3.0</zhul.version>
+  </properties>
+```
+
 	<dependencyManagement>
         <dependencies>
             <dependency>

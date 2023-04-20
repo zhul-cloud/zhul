@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.zhul.cloud</groupId>
+    <groupId>io.github.zhul-cloud</groupId>
     <artifactId>zhul-dependencies</artifactId>
     <version>1.3.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -293,49 +293,49 @@
 
             <!-- sdk版本 -->
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-component-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-component-core-tool</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-framework-starter-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-framework-starter-console</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-framework-starter-gateway</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-framework-starter-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-framework-starter-test</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>io.github.zhul.cloud</groupId>
+                <groupId>io.github.zhul-cloud</groupId>
                 <artifactId>zhul-framework-starter-zuul</artifactId>
                 <version>${project.version}</version>
             </dependency>
