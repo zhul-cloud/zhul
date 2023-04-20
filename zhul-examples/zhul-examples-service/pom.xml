@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>io.github.zhul-cloud</groupId>
 		<artifactId>zhul-examples</artifactId>
-		<version>1.3.0-SNAPSHOT</version>
+		<version>1.3.0</version>
 	</parent>
 
 	<artifactId>zhul-examples-service</artifactId>
