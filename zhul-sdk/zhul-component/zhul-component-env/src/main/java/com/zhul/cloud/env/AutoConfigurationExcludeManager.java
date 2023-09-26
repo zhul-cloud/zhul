@@ -90,6 +90,8 @@ public final class AutoConfigurationExcludeManager {
 
     excludes.add("org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration");
 
+    excludes.add("org.apache.shardingsphere.spring.boot.ShardingSphereAutoConfiguration");
+
     return excludes;
   }
 
