@@ -29,8 +29,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Inherited
-@SpringBootApplication
-@EnableFeignClients(basePackages = {"com.wanquan", "com.wq"})
+@SpringBootApplication(scanBasePackages = {"${zhul.cloud.scan.basePackages}"})
+@EnableFeignClients(basePackages = {"${zhul.cloud.scan.basePackages}"})
 @EnableCacheClient
 @EnableLockClient
 @EnableStreamClient

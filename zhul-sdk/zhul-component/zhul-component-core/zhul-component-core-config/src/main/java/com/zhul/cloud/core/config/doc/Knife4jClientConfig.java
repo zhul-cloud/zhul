@@ -36,13 +36,16 @@ public class Knife4jClientConfig {
     @Value("${spring.application.name}")
     private String applicationName;
 
+    @Value("${zhul.cloud.scan.basePackages:com.zhul}")
+    private String basePackages;
+
     @Bean(value = "restApi")
     @Order(value = 1)
     public Docket groupRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(groupApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.wanquan"))
+                .apis(RequestHandlerSelectors.basePackage(basePackages))
                 .paths(PathSelectors.any())
                 .build().extensions(openApiExtensionResolver.buildExtensions(""));
     }
