@@ -10,6 +10,33 @@
     <packaging>pom</packaging>
 
     <name>zhul-dependencies</name>
+    <url>https://github.com/zhul-cloud/zhul</url>
+    <description>Zhul【烛龙】企业级云原生微服务框架</description>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/zhul-cloud/zhul</url>
+        <connection>https://github.com/zhul-cloud/zhul.git</connection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>zhul-cloud</name>
+            <id>zhul-cloud</id>
+            <email>zhul666@126.com</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
 
     <properties>
         <!-- Spring Cloud Hoxton compatible versions -->
